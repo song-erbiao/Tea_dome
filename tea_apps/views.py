@@ -41,3 +41,4 @@ def Uinfo(request):
     :return:
     """
     return render(request,'user/userinfo.html')
+
