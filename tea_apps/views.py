@@ -16,7 +16,7 @@ def Register(request):
     :return:
     """
 
-    return render(request,'index/registered.htm')
+    return render(request,'index/registered.html')
 
 def Login(request):
     """
@@ -24,7 +24,7 @@ def Login(request):
     :param request:
     :return:
     """
-    return render(request,'index/login.htm')
+    return render(request,'index/login.html')
 
 def User_info(request):
     """
